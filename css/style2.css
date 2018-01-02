@@ -1,0 +1,820 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/*.h1 h1{
+  color: rgba(35, 32, 32, 0.8) !important;
+}*/
+
+body{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+
+strong{
+  font-weight: bold !important;
+}
+
+.nicescroll-cursors{
+  border: none !important;
+  z-index: 100;
+}
+
+#nav ul li i{
+  position: relative;
+  font-size: 17px;
+  left: 10px;
+}
+
+.divider-proyect{
+  overflow: visible !important;
+  margin: 5rem 80px;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+
+
+.slide-hight{
+    height: 500px !important;
+}
+
+.lead{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.simbolo-equipos{
+  width: 45px;
+  position: relative;
+}
+
+.simbolo-equipos img{
+  max-width: 100%;
+}
+
+.nuestros-equipos{
+  position: relative;
+  display: flex;
+  right: 160px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.h5-nuestros-equipos{
+  position: relative;
+  /*border-bottom: 1px solid #0091b9;*/
+  margin-left: 10px;
+  width: 14.5em;
+  bottom: 16px;
+}
+
+.h5-nuestros-equipos h5{
+  position: relative;
+  top: 9px;
+}
+
+.elster-location{
+  position: relative;
+  display: flex;
+  margin-bottom: 39px;
+}
+
+.elster-location p{
+  line-height: 23px;
+}
+
+
+
+.nuestros-servicios{
+  position: relative;
+  border-top: 1px solid #0091b9;
+  display: inline-block;
+  /*width: 290px;*/
+  /*margin: 40px 70px;*/
+  /*height: 100px;*/
+  /*margin-top: 40px;*/
+
+}
+
+
+.nuestros-servicios-row{
+  max-width: 1500px !important;
+  position: relative;
+  display: flex;
+  /*justify-content: center;*/
+  width: 100% !important;
+
+}
+
+.nuestros-servicios-fnd{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    bottom: 50px;
+    left: 90px;
+}
+
+.mant-remt-email{
+    width: 115px;
+    position: relative;
+}
+
+.mant-remt-email img{
+    max-width: 100%;
+}
+
+.texto-strong{
+  position: relative;
+  width: 300px;
+  font-size: 18px;
+  bottom: 40px;
+  /*right: 53px;*/
+}
+
+.texto-descripcion-servicios{
+  position: relative;
+  font-size: 15px;
+  width: 303px;
+  bottom: 45px;
+  /*right: 29px;*/
+}
+
+.texto-descripcion-servicios p{
+  line-height: 20px;
+}
+
+.servicio-remoto{
+  top: 12px;
+  left: 2px;
+}
+
+.servicio-mail{
+  left: 6px;
+  top: 4px;
+}
+
+.nav-equipos{
+  background: rgba(243, 243, 243, 0.89) !important;
+  color: black;
+  width: 100%;
+  height: 72px;
+}
+
+.ubc-servicios{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgelster{
+  position: relative;
+  width: 214px;
+  height: 150px;
+  left: 100px;
+  margin-bottom: 30px;
+}
+.imgelster img{
+  max-width: 100% !important;
+}
+
+.imgaclara{
+  position: relative;
+  width: 259px;
+  height: auto;
+  /*margin-right: 0 !important;*/
+  left: 125px;
+  /*margin-top: 30px;*/
+  top: 37px;
+}
+
+.imgaclara img{
+  max-width: 100%;
+}
+
+
+.division-principal-equipos1{
+  position: relative;
+  right: 50px !important;
+}
+
+.division-principal-equipos2{
+  position: relative;
+  left: 50px !important;
+}
+
+.aclara-location{
+  top: 46px;
+}
+
+.btn-equipos a{
+  position: relative;
+  font-size: 11px !important;
+  padding: 0px 1rem !important;
+  line-height: 27px !important;
+  height: 24px !important;
+  left: 117px;
+  bottom: 10px;
+  /*color: black !important;*/
+}
+
+.border-equipos-elster{
+  position: absolute;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  width: 500px;
+  height: 400px;
+  z-index: -1;
+  top: -18px;
+}
+
+/*************Estilos para el nav**************/
+nav .brand-logo {
+  color: #444;
+}
+
+nav .sub-logo{
+   top: -20px;
+}
+
+.background-header{
+  background: #343434 url(fondo.png) top center no-repeat;
+}
+
+nav .nav-div{
+  font-size: 10px;
+  position: absolute;
+}
+
+.divbuscar{
+  position: absolute !important;
+  width: 139px;
+  height: 7px;
+  right: -121px;
+  top: 3px;
+}
+
+.buscarlabel{
+  position: absolute;
+  top: 1px;
+  right: 120px;
+}
+
+.inputbuscar{
+  position: absolute;
+  height: 37px;
+  top: 0px;
+  right: 61px;
+  left: 23px;
+}
+
+.dropdown-content{
+  background: #343434 url(fondo.png) top center no-repeat;
+}
+
+.dropdown-content li > a{
+ color: white;
+ font-size: 14px;
+}
+
+.AMI{
+  bottom: -15px;
+  right: 241px;
+}
+/******************************************************/
+
+/***********ESTILOS PARA EL PARALLAX*******************/
+.cuadroinformativo{
+  font-family: 'Philosopher', cursive;
+  font-size: 22px;
+  position: absolute;
+  background: rgba(35, 32, 32, 0.8);
+  width: 450px;
+  height: 170px;
+  top: 190px;
+  right: 0px;
+  padding: 0.5em 1em;
+  color: #f9f6f6;
+}
+
+.cuadrop{
+  font-size: 15px ;
+  position: relative;
+  bottom: 37px;
+}
+
+.cuadrostrong{
+  position: relative;
+  bottom: 21px;
+}
+
+.cuadrobutton{
+  position: relative;
+  left: 245px;
+  bottom: 60px;
+  /*background: #00AEEF !important;*/
+  background: rgba(255,255,255, .8) !important;
+  color: black;
+}
+/******************************************************/
+
+/****************ESTILOS CONTAINER PRINCIPAL***********/
+.AMIh4{
+  position: absolute;
+}
+
+.felster{
+position: relative;
+border: 1px solid #587186;
+padding: 10px;
+border-radius: 8px;
+width: auto;
+height: 438px !important;
+top: 50px;
+}
+
+.faclara{
+  position: relative;
+  border: 1px solid #587186;
+  padding: 10px;
+  border-radius: 8px;
+  width: 985px;
+  height: 438px !important;
+  top: 50px;
+}
+
+.word-kv2c{
+  position: relative;
+  bottom: 21px;
+}
+
+
+
+.background-elster{
+  background-image: url("fondo-elster.png") !important;
+  height: 200px;
+  margin-top: -23px;
+  /*border: 1.5px solid #8CBBE3;*/
+  border-radius: 20px;
+  width: 1121px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.background-aclara{
+  height: 200px;
+  margin-top: -23px;
+  border: 1.5px solid #8CBBE3;
+  border-radius: 20px;
+  width: 1121px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.medidorelster{
+  position: relative;
+  width: 165px;
+  height: 155px;
+  bottom: 27px;
+  right: 15px;
+}
+
+.medidorelster img{
+  max-width: 100%;
+}
+
+.colelster{
+  position: relative;
+  top: 54px;
+}
+
+.colaclara{
+  position: relative;
+  top: 45px;
+  left: 153px !important;
+}
+
+
+.img-meter-aclara{
+  position: relative;
+  width: 229px;
+  height: auto;
+  bottom: 52px;
+  left: 10em;
+}
+
+.img-meter-aclara img{
+  max-width: 100%;
+}
+
+.container-90{
+  width: 90%;
+}
+
+.display-grid{
+  display: inline-grid;
+  justify-content: center;
+}
+
+.divimg{
+  width: 321px;
+  height: 255px;
+  background-color: #eeeeee !important;
+  /*background: transparent url('images/fnd_caja.png') no-repeat center*/
+  margin-left: 19px !important;
+}
+
+.divimg h5{
+  color: #555555;
+  font-size: 1em;
+  text-align: center;
+}
+
+.img-equipos-elster{
+  position: relative;
+  top: 22px;
+  left: 23px;
+}
+
+.img-equipos-aclara{
+  position: relative;
+  top: 22px;
+  left: 79px;
+}
+
+.imgA33G{
+  position: relative;
+  top: 10px;
+  left: 32px;
+  width: 240px;
+  height: 250px;
+}
+
+.imgA33G img{
+  max-width: 100%;
+}
+
+.texto-equipos3g{
+  position: relative;
+  bottom: 56px;
+  left: 126px;
+  font-size: 14px;
+  width: 120px;
+}
+
+.texto-equipos3g p{
+  line-height: 0.5;
+  color: #353535;
+}
+
+.texto-equipos2g{
+  position: relative;
+  bottom: 75px;
+  left: 173px;
+  font-size: 14px;
+  width: 126px;
+}
+
+.texto-equipos2g p{
+  line-height: 0.5;
+  color: #353535;
+}
+
+.texto-equiposSGM{
+  position: relative;
+  bottom: 19px;
+  font-size: 14px;
+}
+
+.texto-equiposSGM p{
+  line-height: 0.5;
+  color: #353535;
+}
+
+.imgA32G{
+  position: relative;
+  top: 19px;
+  left: -15px;
+  width: 332px;
+}
+
+.imgA32G img{
+  max-width: 100%;
+}
+
+.imgsgm3000{
+  position: relative;
+  top: 16px;
+  left: 18px;
+  width: 259px;
+}
+
+.imgsgm3000 img{
+  max-width: 100%;
+}
+
+.imgkv2c{
+  position: relative;
+  top: 15px;
+  left: 30px;
+  width: 220px;
+}
+
+.imgkv2c img{
+  max-width: 100%;
+}
+
+.prueba{
+  position: relative;
+  display: table;
+}
+/******************************************************/
+.lineheight p{
+  line-height: 90% !important;
+}
+
+.locat1{
+  left: 53px;
+  position: relative;
+  top: 50px;
+}
+
+.divcontainer{
+  height: 300px;
+}
+
+.A3carousel{
+  top: -45px;
+}
+
+.divsection1{
+  width: 100%;
+  /*margin: 0 15px;*/
+  height: auto;
+}
+
+.divsection{
+  width: 100%
+  height: auto;
+  background: white !important;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.footer-social-links {
+    background: url('http://www.easymetering.com/wp-content/themes/Insperia/images/social_pattern.png') repeat scroll 0 0 transparent;
+}
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-linkedin2 {background: #d95232;}
+	.social ul li .icon-mail4 {background: #666666;}
+
+	.social ul li a:hover{
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+.contact li{
+  display: inline-block;
+}
+
+.contact{
+  text-align: center;
+}
+
+.contactdiv{
+  height: 40px;
+  width: 40px;
+  background: grey;
+  border-radius: 50%;
+  padding: 10px 12px;
+  margin-left: 10px;
+}
+
+.contact-div{
+  position: relative;
+  top: 26px;
+}
+
+.button-collapse i {
+
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .slider ul #slider-1 div{
+    background-color: #35353566;
+  }
+
+  .slider ul #slider-3 div{
+    background-color: #35353566;
+  }
+
+@media only screen and (min-width : 800px) {
+  .service-margin{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  .company{
+    position: relative !important;
+    top: 15px !important;
+    right: 33px !important;
+  }
+  .footer-address{
+    text-align: center;
+  }
+
+  .footer-address p{
+    text-align: justify !important;
+    line-height: 10px;
+  }
+
+  .footer-address div{
+    position: relative;
+    top: 40px;
+    left: 60px;
+  }
+
+  .white-logo-large{
+    height: 50px;
+    width: 292px;
+    position: absolute;
+    left: -150px;
+    top: 90px;
+  }
+
+  .white-logo-large img{
+    max-width: 100%;
+    z-index: 30;
+  }
+
+  .slider ul .slider-tag-1{
+    position: relative;
+    right: 150px;
+    bottom: 70px;
+    width:365px;
+    height: auto;
+  }
+
+  .slider ul .slider-tag-2{
+    position: relative;
+    left: 8pc;
+    width:365px;
+    height: auto;
+  }
+
+  .slider ul .slider-tag-3{
+    position: relative;
+    left: 20pc;
+    top: 50px;
+    width:365px;
+    height: auto;
+  }
+
+  .slider ul #slider-3 div{
+    position: relative;
+    width: 76%;
+    top: 35px;
+    left: 100px;
+  }
+
+  .slider .slides li .caption {
+    left: 21%;
+  }
+
+}
+
+@media only screen and (min-width : 992px) {
+  nav .sub-logo{
+     left: -65px;
+  }
+  .slider .slides li .caption {
+    left: 17% !important;
+  }
+
+}
+
+@media only screen and (max-width : 1128px) {
+  nav ul{
+    padding-left: 160px !important;
+  }
+  nav .header-search-wrapper{
+    width: 20% !important;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 799px) {   /*640px*/
+  #index-banner .section {
+    top: 0;
+  }
+
+  .small-service1{
+      margin-top: 170px;
+  }
+
+  /*.small-service{
+      margin-top: 50px;
+  }*/
+
+  .button-collapse{
+    color: #b6b6b6 !important;
+  }
+
+  .white-logo-small{
+    height: 50px;
+    width: 290px;
+    bottom: 10px;
+    position: absolute;
+    left: -14px;
+}
+
+.white-logo-small img{
+    max-width: 100%;
+    z-index: 30;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+
+  #index-banner .section {
+    top: 0;
+  }
+
+  .small-service{
+      margin-top: 50px !important;
+  }
+
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+@media only screen and (max-width : 416px) {
+
+  .slider ul #slider-1 h3{
+    font-size: 1.92rem;
+  }
+
+  .slider ul #slider-3 h3{
+    font-size: 1.92rem;
+  }
+
+}
